@@ -1,0 +1,38 @@
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+
+h1    {font-size: 30px; text-align:center; background: #e1e1e1; padding:40px 0; margin:0;}
+
+/* ===========================
+   ===== Sticky navbar  ===== 
+   =========================== */	
+   
+
+.centering{
+	max-width:1200px;
+	margin:50px auto;
+	text-align: left
+}
+
+#navbar{
+	background: #be0071;
+	overflow: hidden;
+}
+
+#navbar a{
+	float: left;
+	display: block;
+	color:#fff;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.stick{
+	position: fixed;
+	top:0;
+	width:100%;
+}
+
+.stick + .content{
+	padding-top:50px;
+}
